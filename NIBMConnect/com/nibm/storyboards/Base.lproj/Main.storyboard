@@ -20,9 +20,30 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="YLV-WH-Dlc" kind="show" identifier="showLogin" id="ny0-cO-0Zn"/>
+                        <segue destination="6pw-nG-ts9" kind="show" identifier="showHome" id="gVI-Z4-d4v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="191" y="20"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="45G-PS-PIE">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="6pw-nG-ts9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6rB-Q5-I5r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="717" y="102"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="1DR-br-JPp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="YLV-WH-Dlc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8oF-lS-GWn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="718" y="-52"/>
         </scene>
     </scenes>
 </document>
