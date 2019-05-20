@@ -17,6 +17,13 @@
                     <view key="view" contentMode="scaleToFill" id="98a-RY-qPu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VEA-nH-boQ" customClass="GIDSignInButton">
+                                <rect key="frame" x="87" y="410" width="240" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="AE0-G7-rnj"/>
                     </view>
@@ -29,10 +36,10 @@
             </objects>
             <point key="canvasLocation" x="1131.8840579710145" y="126.5625"/>
         </scene>
-        <!--View Controller-->
+        <!--Forget Password View Controller-->
         <scene sceneID="B8E-YN-haM">
             <objects>
-                <viewController id="vqG-Bp-b7g" sceneMemberID="viewController">
+                <viewController id="vqG-Bp-b7g" customClass="ForgetPasswordViewController" customModule="NIBMConnect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Xs-ED-NZI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
