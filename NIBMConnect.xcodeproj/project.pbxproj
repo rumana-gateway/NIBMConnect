@@ -25,7 +25,7 @@
 		B1C26A6222926BCA00EC597A /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C26A6122926BCA00EC597A /* StudentsViewController.swift */; };
 		B1C26A6722927F2000EC597A /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C26A6622927F2000EC597A /* ForgetPasswordViewController.swift */; };
 		B1C26A6922927FD700EC597A /* AppTempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C26A6822927FD700EC597A /* AppTempData.swift */; };
-		B1C26A6D22928EA900EC597A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1C26A6C22928EA900EC597A /* GoogleService-Info.plist */; };
+		B1C26A752292979800EC597A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1C26A742292979700EC597A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +51,8 @@
 		B1C26A6122926BCA00EC597A /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
 		B1C26A6622927F2000EC597A /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 		B1C26A6822927FD700EC597A /* AppTempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTempData.swift; sourceTree = "<group>"; };
-		B1C26A6C22928EA900EC597A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B1C26A742292979700EC597A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B1C26A76229297A100EC597A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +149,7 @@
 		B1919275229258CA00F35060 = {
 			isa = PBXGroup;
 			children = (
+				B1C26A742292979700EC597A /* GoogleService-Info.plist */,
 				B1919280229258CA00F35060 /* NIBMConnect */,
 				B191927F229258CA00F35060 /* Products */,
 				7A3C29503E5844B60B106BDE /* Pods */,
@@ -166,7 +168,7 @@
 		B1919280229258CA00F35060 /* NIBMConnect */ = {
 			isa = PBXGroup;
 			children = (
-				B1C26A6C22928EA900EC597A /* GoogleService-Info.plist */,
+				B1C26A76229297A100EC597A /* GoogleService-Info.plist */,
 				B1919281229258CA00F35060 /* AppDelegate.swift */,
 				B1919288229258CC00F35060 /* Assets.xcassets */,
 				B191928D229258CC00F35060 /* Info.plist */,
@@ -286,7 +288,7 @@
 			files = (
 				B11914DE22925E8400F408A5 /* Login.storyboard in Resources */,
 				B11914E022925F1900F408A5 /* Home.storyboard in Resources */,
-				B1C26A6D22928EA900EC597A /* GoogleService-Info.plist in Resources */,
+				B1C26A752292979800EC597A /* GoogleService-Info.plist in Resources */,
 				B191928C229258CC00F35060 /* LaunchScreen.storyboard in Resources */,
 				B1C26A572292655800EC597A /* Myprofile.storyboard in Resources */,
 				B1919289229258CC00F35060 /* Assets.xcassets in Resources */,
