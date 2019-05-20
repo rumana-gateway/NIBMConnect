@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B11914DC22925D0500F408A5 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11914DB22925D0500F408A5 /* LandingViewController.swift */; };
 		B1919282229258CA00F35060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1919281229258CA00F35060 /* AppDelegate.swift */; };
-		B1919284229258CA00F35060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1919283229258CA00F35060 /* ViewController.swift */; };
 		B1919287229258CA00F35060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1919285229258CA00F35060 /* Main.storyboard */; };
 		B1919289229258CC00F35060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1919288229258CC00F35060 /* Assets.xcassets */; };
 		B191928C229258CC00F35060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B191928A229258CC00F35060 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B11914DB22925D0500F408A5 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		B191927E229258CA00F35060 /* NIBMConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIBMConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1919281229258CA00F35060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B1919283229258CA00F35060 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1919286229258CA00F35060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1919288229258CC00F35060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B191928B229258CC00F35060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +35,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B11914D522925B9100F408A5 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				B11914D622925BB000F408A5 /* nibm */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		B11914D622925BB000F408A5 /* nibm */ = {
+			isa = PBXGroup;
+			children = (
+				B11914DA22925BDA00F408A5 /* storyboards */,
+				B11914D922925BD100F408A5 /* controls */,
+				B11914D822925BC900F408A5 /* views */,
+				B11914D722925BC000F408A5 /* model */,
+			);
+			path = nibm;
+			sourceTree = "<group>";
+		};
+		B11914D722925BC000F408A5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B11914D822925BC900F408A5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		B11914D922925BD100F408A5 /* controls */ = {
+			isa = PBXGroup;
+			children = (
+				B11914DB22925D0500F408A5 /* LandingViewController.swift */,
+			);
+			path = controls;
+			sourceTree = "<group>";
+		};
+		B11914DA22925BDA00F408A5 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B191928A229258CC00F35060 /* LaunchScreen.storyboard */,
+				B1919285229258CA00F35060 /* Main.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
 		B1919275229258CA00F35060 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +104,9 @@
 		B1919280229258CA00F35060 /* NIBMConnect */ = {
 			isa = PBXGroup;
 			children = (
+				B11914D522925B9100F408A5 /* com */,
 				B1919281229258CA00F35060 /* AppDelegate.swift */,
-				B1919283229258CA00F35060 /* ViewController.swift */,
-				B1919285229258CA00F35060 /* Main.storyboard */,
 				B1919288229258CC00F35060 /* Assets.xcassets */,
-				B191928A229258CC00F35060 /* LaunchScreen.storyboard */,
 				B191928D229258CC00F35060 /* Info.plist */,
 			);
 			path = NIBMConnect;
@@ -135,7 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1919284229258CA00F35060 /* ViewController.swift in Sources */,
+				B11914DC22925D0500F408A5 /* LandingViewController.swift in Sources */,
 				B1919282229258CA00F35060 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
