@@ -14,6 +14,9 @@ import GoogleSignIn
 
 class LoginViewController: UIViewController, GIDSignInUIDelegate, GIDSignInDelegate{
 
+    @IBOutlet weak var login: UIButton!
+    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var email: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         GIDSignIn.sharedInstance().uiDelegate = self
@@ -22,6 +25,22 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate, GIDSignInDeleg
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func signIncustom(_ sender: Any) {
+        Auth.auth().signIn(withEmail: self.email.text!, password: self.password.text!) { [weak self] user,
+            error in
+            guard let strongself = self else { return }
+            if error != nil {
+                let alert = UIAlertController(title: "Login Error", message: error?.localizedDescription, preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                strongself.present(alert, animated: true, completion: nil)
+            }else {
+                strongself.performSegue(withIdentifier: "showHome", sender: nil)
+                AppData.storeData(data: user!.user.displayName, key: UserData.username)
+                
+            }
+            
+        }
+    }
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error?) {
         // ...
         if let error = error {
@@ -34,7 +53,7 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate, GIDSignInDeleg
         let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken,
                                                        accessToken: authentication.accessToken)
         // ...
-        Auth.auth().signInAndRetrieveData(with: credential) { (authResult, error) in
+        Auth.auth().signIn(with: credential) { (authResult, error) in
             if let error = error {
                 // ...
                 print(error)
@@ -50,16 +69,5 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate, GIDSignInDeleg
         
     }
     
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

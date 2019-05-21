@@ -16,6 +16,8 @@
 		B1919287229258CA00F35060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1919285229258CA00F35060 /* Main.storyboard */; };
 		B1919289229258CC00F35060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1919288229258CC00F35060 /* Assets.xcassets */; };
 		B191928C229258CC00F35060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B191928A229258CC00F35060 /* LaunchScreen.storyboard */; };
+		B19237472293F3C500CAAF5B /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19237462293F3C500CAAF5B /* AppData.swift */; };
+		B192374922940C2300CAAF5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B192374822940C2300CAAF5B /* GoogleService-Info.plist */; };
 		B1C26A512292623B00EC597A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C26A502292623B00EC597A /* HomeViewController.swift */; };
 		B1C26A552292654200EC597A /* Students.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C26A542292654200EC597A /* Students.storyboard */; };
 		B1C26A572292655800EC597A /* Myprofile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C26A562292655800EC597A /* Myprofile.storyboard */; };
@@ -42,6 +44,8 @@
 		B1919288229258CC00F35060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B191928B229258CC00F35060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B191928D229258CC00F35060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19237462293F3C500CAAF5B /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		B192374822940C2300CAAF5B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B1C26A502292623B00EC597A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B1C26A542292654200EC597A /* Students.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Students.storyboard; sourceTree = "<group>"; };
 		B1C26A562292655800EC597A /* Myprofile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Myprofile.storyboard; sourceTree = "<group>"; };
@@ -52,7 +56,6 @@
 		B1C26A6622927F2000EC597A /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 		B1C26A6822927FD700EC597A /* AppTempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTempData.swift; sourceTree = "<group>"; };
 		B1C26A742292979700EC597A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		B1C26A76229297A100EC597A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				B1C26A6822927FD700EC597A /* AppTempData.swift */,
+				B19237462293F3C500CAAF5B /* AppData.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -121,13 +125,13 @@
 		B11914D922925BD100F408A5 /* controls */ = {
 			isa = PBXGroup;
 			children = (
+				B11914DB22925D0500F408A5 /* LandingViewController.swift */,
 				B1C26A6522927EE700EC597A /* ForgetPassword */,
 				B1C26A6022926B9100EC597A /* Students */,
 				B1C26A5B2292699500EC597A /* Homework */,
 				B1C26A5A2292698100EC597A /* MyProfile */,
 				B1C26A532292629F00EC597A /* Home */,
 				B1C26A522292629400EC597A /* Login */,
-				B11914DB22925D0500F408A5 /* LandingViewController.swift */,
 			);
 			path = controls;
 			sourceTree = "<group>";
@@ -168,7 +172,7 @@
 		B1919280229258CA00F35060 /* NIBMConnect */ = {
 			isa = PBXGroup;
 			children = (
-				B1C26A76229297A100EC597A /* GoogleService-Info.plist */,
+				B192374822940C2300CAAF5B /* GoogleService-Info.plist */,
 				B1919281229258CA00F35060 /* AppDelegate.swift */,
 				B1919288229258CC00F35060 /* Assets.xcassets */,
 				B191928D229258CC00F35060 /* Info.plist */,
@@ -293,6 +297,7 @@
 				B1C26A572292655800EC597A /* Myprofile.storyboard in Resources */,
 				B1919289229258CC00F35060 /* Assets.xcassets in Resources */,
 				B1C26A552292654200EC597A /* Students.storyboard in Resources */,
+				B192374922940C2300CAAF5B /* GoogleService-Info.plist in Resources */,
 				B1C26A592292656E00EC597A /* Homework.storyboard in Resources */,
 				B1919287229258CA00F35060 /* Main.storyboard in Resources */,
 			);
@@ -389,6 +394,7 @@
 				B1C26A6722927F2000EC597A /* ForgetPasswordViewController.swift in Sources */,
 				B1C26A6922927FD700EC597A /* AppTempData.swift in Sources */,
 				B1C26A512292623B00EC597A /* HomeViewController.swift in Sources */,
+				B19237472293F3C500CAAF5B /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +544,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA67J8C56D;
 				INFOPLIST_FILE = NIBMConnect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -545,7 +552,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "COBSCComp171p-007.NIBMConnect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -557,6 +564,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA67J8C56D;
 				INFOPLIST_FILE = NIBMConnect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -564,7 +572,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "COBSCComp171p-007.NIBMConnect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

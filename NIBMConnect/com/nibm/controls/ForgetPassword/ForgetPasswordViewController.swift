@@ -7,24 +7,38 @@
 //
 
 import UIKit
+import FirebaseAuth
+import Firebase
 
-class ForgetPasswordViewController: UIViewController {
-
+class ForgotPassword: UIViewController {
+    
+    @IBOutlet weak var emailTxtF: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+//    @IBAction func dismiss(_ sender: Any) {
+//        self.dismiss(animated: true, completion: nil)
+//    }
+//
+//    @IBAction func getPassword(_ sender: Any) {
+//
+//        if emailTxtF.text!.isEmpty {
+//            print("please enter a email")
+//            return
+//        }else {
+//
+//            Auth.auth().sendPasswordReset(withEmail: emailTxtF.text!) { (error) in
+//                if (error != nil){
+//                    print(error?.localizedDescription)
+//
+//                }else{
+//                    self.dismiss(animated: true, completion: nil)
+//                }
+//            }
+//        }
+//    }
+    
 }
