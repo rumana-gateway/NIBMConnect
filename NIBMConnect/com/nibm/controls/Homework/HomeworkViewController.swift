@@ -8,23 +8,48 @@
 
 import UIKit
 
-class HomeworkViewController: UIViewController {
-
+class HomeworkViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
+ 
+    @IBOutlet weak var homeWorkList: UITableView!
+    var homeWorkArray:[HomeWork] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.homeWorkList.delegate = self
+        self.homeWorkList.dataSource = self
+        
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        self.homeWorkList.reloadData()
     }
-    */
-
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        if let arrayDetails = HomeWork.getHomeWork() {
+            homeWorkArray = arrayDetails
+        }
+    }
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return homeWorkArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let home = homeWorkArray[indexPath.row]
+        
+        let cell:HomeWorkCell = tableView.dequeueReusableCell(withIdentifier: "homeCell", for: indexPath) as! HomeWorkCell
+        
+        cell.setupCell(title: home.title, des: home.description)
+        
+        return cell
+    }
 }
+
+

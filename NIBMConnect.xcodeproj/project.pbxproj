@@ -12,12 +12,14 @@
 		B11914DE22925E8400F408A5 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11914DD22925E8400F408A5 /* Login.storyboard */; };
 		B11914E022925F1900F408A5 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11914DF22925F1900F408A5 /* Home.storyboard */; };
 		B11914E222925F9700F408A5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11914E122925F9700F408A5 /* LoginViewController.swift */; };
+		B18457DF229A6D72002415CE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18457DE229A6D72002415CE /* DetailViewController.swift */; };
 		B1919282229258CA00F35060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1919281229258CA00F35060 /* AppDelegate.swift */; };
 		B1919287229258CA00F35060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1919285229258CA00F35060 /* Main.storyboard */; };
 		B1919289229258CC00F35060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1919288229258CC00F35060 /* Assets.xcassets */; };
 		B191928C229258CC00F35060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B191928A229258CC00F35060 /* LaunchScreen.storyboard */; };
 		B19237472293F3C500CAAF5B /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19237462293F3C500CAAF5B /* AppData.swift */; };
-		B192374922940C2300CAAF5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B192374822940C2300CAAF5B /* GoogleService-Info.plist */; };
+		B1AD4F9B2295E7BC00DEE5D7 /* StudentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AD4F9A2295E7BC00DEE5D7 /* StudentsTableViewCell.swift */; };
+		B1AD4F9D2295EC2A00DEE5D7 /* friendsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AD4F9C2295EC2A00DEE5D7 /* friendsModel.swift */; };
 		B1C26A512292623B00EC597A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C26A502292623B00EC597A /* HomeViewController.swift */; };
 		B1C26A552292654200EC597A /* Students.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C26A542292654200EC597A /* Students.storyboard */; };
 		B1C26A572292655800EC597A /* Myprofile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C26A562292655800EC597A /* Myprofile.storyboard */; };
@@ -27,7 +29,11 @@
 		B1C26A6222926BCA00EC597A /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C26A6122926BCA00EC597A /* StudentsViewController.swift */; };
 		B1C26A6722927F2000EC597A /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C26A6622927F2000EC597A /* ForgetPasswordViewController.swift */; };
 		B1C26A6922927FD700EC597A /* AppTempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C26A6822927FD700EC597A /* AppTempData.swift */; };
-		B1C26A752292979800EC597A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1C26A742292979700EC597A /* GoogleService-Info.plist */; };
+		B1E23882229A92860054ADB4 /* HomeWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E23881229A92860054ADB4 /* HomeWork.swift */; };
+		B1E23884229A939C0054ADB4 /* AddHomeWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E23883229A939C0054ADB4 /* AddHomeWorkViewController.swift */; };
+		B1E23887229A95390054ADB4 /* HomeWorkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E23886229A95390054ADB4 /* HomeWorkCell.swift */; };
+		B1EA1506229AB93700CA06FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1EA1505229AB93700CA06FE /* GoogleService-Info.plist */; };
+		B1F602882299EC2500FEA1FC /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F602872299EC2500FEA1FC /* FriendsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +44,7 @@
 		B11914DD22925E8400F408A5 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		B11914DF22925F1900F408A5 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		B11914E122925F9700F408A5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B18457DE229A6D72002415CE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B191927E229258CA00F35060 /* NIBMConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIBMConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1919281229258CA00F35060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1919286229258CA00F35060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,7 +52,8 @@
 		B191928B229258CC00F35060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B191928D229258CC00F35060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B19237462293F3C500CAAF5B /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
-		B192374822940C2300CAAF5B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B1AD4F9A2295E7BC00DEE5D7 /* StudentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsTableViewCell.swift; sourceTree = "<group>"; };
+		B1AD4F9C2295EC2A00DEE5D7 /* friendsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendsModel.swift; sourceTree = "<group>"; };
 		B1C26A502292623B00EC597A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B1C26A542292654200EC597A /* Students.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Students.storyboard; sourceTree = "<group>"; };
 		B1C26A562292655800EC597A /* Myprofile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Myprofile.storyboard; sourceTree = "<group>"; };
@@ -55,7 +63,11 @@
 		B1C26A6122926BCA00EC597A /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
 		B1C26A6622927F2000EC597A /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 		B1C26A6822927FD700EC597A /* AppTempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTempData.swift; sourceTree = "<group>"; };
-		B1C26A742292979700EC597A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B1E23881229A92860054ADB4 /* HomeWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork.swift; sourceTree = "<group>"; };
+		B1E23883229A939C0054ADB4 /* AddHomeWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHomeWorkViewController.swift; sourceTree = "<group>"; };
+		B1E23886229A95390054ADB4 /* HomeWorkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkCell.swift; sourceTree = "<group>"; };
+		B1EA1505229AB93700CA06FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B1F602872299EC2500FEA1FC /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,8 @@
 			children = (
 				B1C26A6822927FD700EC597A /* AppTempData.swift */,
 				B19237462293F3C500CAAF5B /* AppData.swift */,
+				B1AD4F9C2295EC2A00DEE5D7 /* friendsModel.swift */,
+				B1E23881229A92860054ADB4 /* HomeWork.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -118,6 +132,8 @@
 		B11914D822925BC900F408A5 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				B1AD4F9A2295E7BC00DEE5D7 /* StudentsTableViewCell.swift */,
+				B18457DE229A6D72002415CE /* DetailViewController.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -153,7 +169,6 @@
 		B1919275229258CA00F35060 = {
 			isa = PBXGroup;
 			children = (
-				B1C26A742292979700EC597A /* GoogleService-Info.plist */,
 				B1919280229258CA00F35060 /* NIBMConnect */,
 				B191927F229258CA00F35060 /* Products */,
 				7A3C29503E5844B60B106BDE /* Pods */,
@@ -172,8 +187,8 @@
 		B1919280229258CA00F35060 /* NIBMConnect */ = {
 			isa = PBXGroup;
 			children = (
-				B192374822940C2300CAAF5B /* GoogleService-Info.plist */,
 				B1919281229258CA00F35060 /* AppDelegate.swift */,
+				B1EA1505229AB93700CA06FE /* GoogleService-Info.plist */,
 				B1919288229258CC00F35060 /* Assets.xcassets */,
 				B191928D229258CC00F35060 /* Info.plist */,
 				B11914D522925B9100F408A5 /* com */,
@@ -208,7 +223,9 @@
 		B1C26A5B2292699500EC597A /* Homework */ = {
 			isa = PBXGroup;
 			children = (
+				B1E23885229A95270054ADB4 /* Cell */,
 				B1C26A5E229269D700EC597A /* HomeworkViewController.swift */,
+				B1E23883229A939C0054ADB4 /* AddHomeWorkViewController.swift */,
 			);
 			path = Homework;
 			sourceTree = "<group>";
@@ -217,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				B1C26A6122926BCA00EC597A /* StudentsViewController.swift */,
+				B1F602872299EC2500FEA1FC /* FriendsViewController.swift */,
 			);
 			path = Students;
 			sourceTree = "<group>";
@@ -227,6 +245,14 @@
 				B1C26A6622927F2000EC597A /* ForgetPasswordViewController.swift */,
 			);
 			path = ForgetPassword;
+			sourceTree = "<group>";
+		};
+		B1E23885229A95270054ADB4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B1E23886229A95390054ADB4 /* HomeWorkCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,12 +318,11 @@
 			files = (
 				B11914DE22925E8400F408A5 /* Login.storyboard in Resources */,
 				B11914E022925F1900F408A5 /* Home.storyboard in Resources */,
-				B1C26A752292979800EC597A /* GoogleService-Info.plist in Resources */,
+				B1EA1506229AB93700CA06FE /* GoogleService-Info.plist in Resources */,
 				B191928C229258CC00F35060 /* LaunchScreen.storyboard in Resources */,
 				B1C26A572292655800EC597A /* Myprofile.storyboard in Resources */,
 				B1919289229258CC00F35060 /* Assets.xcassets in Resources */,
 				B1C26A552292654200EC597A /* Students.storyboard in Resources */,
-				B192374922940C2300CAAF5B /* GoogleService-Info.plist in Resources */,
 				B1C26A592292656E00EC597A /* Homework.storyboard in Resources */,
 				B1919287229258CA00F35060 /* Main.storyboard in Resources */,
 			);
@@ -362,6 +387,8 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -371,6 +398,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,14 +416,21 @@
 			files = (
 				B1C26A5D229269C100EC597A /* MyProfileViewController.swift in Sources */,
 				B11914E222925F9700F408A5 /* LoginViewController.swift in Sources */,
+				B1F602882299EC2500FEA1FC /* FriendsViewController.swift in Sources */,
+				B1E23882229A92860054ADB4 /* HomeWork.swift in Sources */,
 				B1C26A5F229269D700EC597A /* HomeworkViewController.swift in Sources */,
 				B11914DC22925D0500F408A5 /* LandingViewController.swift in Sources */,
+				B1E23887229A95390054ADB4 /* HomeWorkCell.swift in Sources */,
 				B1919282229258CA00F35060 /* AppDelegate.swift in Sources */,
 				B1C26A6222926BCA00EC597A /* StudentsViewController.swift in Sources */,
 				B1C26A6722927F2000EC597A /* ForgetPasswordViewController.swift in Sources */,
 				B1C26A6922927FD700EC597A /* AppTempData.swift in Sources */,
 				B1C26A512292623B00EC597A /* HomeViewController.swift in Sources */,
+				B1AD4F9D2295EC2A00DEE5D7 /* friendsModel.swift in Sources */,
 				B19237472293F3C500CAAF5B /* AppData.swift in Sources */,
+				B1AD4F9B2295E7BC00DEE5D7 /* StudentsTableViewCell.swift in Sources */,
+				B1E23884229A939C0054ADB4 /* AddHomeWorkViewController.swift in Sources */,
+				B18457DF229A6D72002415CE /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

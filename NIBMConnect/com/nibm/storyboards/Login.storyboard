@@ -59,7 +59,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.79223857389999996" green="0.86264323259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="VEA-nH-boQ" firstAttribute="centerX" secondItem="98a-RY-qPu" secondAttribute="centerX" id="4wF-Xx-g1s"/>
                             <constraint firstItem="AZ5-Kb-DRr" firstAttribute="height" secondItem="9Uf-tl-sKy" secondAttribute="height" id="93z-fp-fJb"/>
@@ -89,7 +89,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zIs-Iq-zXn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1131.8840579710145" y="126.5625"/>
+            <point key="canvasLocation" x="530" y="128"/>
         </scene>
         <!--Home-->
         <scene sceneID="zyN-5j-fnp">
@@ -97,7 +97,7 @@
                 <viewControllerPlaceholder storyboardName="Home" id="JyB-ET-uw0" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0tl-jm-Wg8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2171" y="-219"/>
+            <point key="canvasLocation" x="1103" y="-179"/>
         </scene>
         <!--Forget Password View Controller-->
         <scene sceneID="B8E-YN-haM">
@@ -122,14 +122,14 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmd-iI-t4b">
                                 <rect key="frame" x="147" y="254" width="120" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.75992125789341036" green="1" blue="0.86038745756917512" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Get Password">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.79223857389999996" green="0.86264323259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="cqh-ex-MP4" firstAttribute="leading" secondItem="WVg-KA-SnS" secondAttribute="leading" constant="20" id="2LB-r0-3kD"/>
                             <constraint firstItem="cqh-ex-MP4" firstAttribute="centerX" secondItem="2Xs-ED-NZI" secondAttribute="centerX" id="H9I-Wb-Acm"/>
@@ -141,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DAK-L1-sVW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2213" y="419"/>
+            <point key="canvasLocation" x="1493" y="499"/>
         </scene>
     </scenes>
 </document>

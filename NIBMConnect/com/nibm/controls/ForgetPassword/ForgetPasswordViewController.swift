@@ -19,26 +19,26 @@ class ForgotPassword: UIViewController {
         
     }
     
-//    @IBAction func dismiss(_ sender: Any) {
-//        self.dismiss(animated: true, completion: nil)
-//    }
-//
-//    @IBAction func getPassword(_ sender: Any) {
-//
-//        if emailTxtF.text!.isEmpty {
-//            print("please enter a email")
-//            return
-//        }else {
-//
-//            Auth.auth().sendPasswordReset(withEmail: emailTxtF.text!) { (error) in
-//                if (error != nil){
-//                    print(error?.localizedDescription)
-//
-//                }else{
-//                    self.dismiss(animated: true, completion: nil)
-//                }
-//            }
-//        }
-//    }
+    @IBAction func dismiss(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+
+    @IBAction func getPassword(_ sender: Any) {
+
+        if emailTxtF.text!.isEmpty {
+            print("please enter a email")
+            return
+        }else {
+
+            Auth.auth().sendPasswordReset(withEmail: emailTxtF.text!) { (error) in
+                if (error != nil){
+                    print(error?.localizedDescription)
+
+                }else{
+                    self.dismiss(animated: true, completion: nil)
+                }
+            }
+        }
+    }
     
 }
