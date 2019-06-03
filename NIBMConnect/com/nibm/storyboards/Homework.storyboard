@@ -79,7 +79,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="71x-sx-b6g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="979.71014492753636" y="89.732142857142847"/>
+            <point key="canvasLocation" x="1545" y="80"/>
         </scene>
         <!--Add Home Work View Controller-->
         <scene sceneID="JKE-zM-Ofj">
@@ -108,13 +108,18 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bW-to-JRF">
                                 <rect key="frame" x="151" y="284" width="112" height="30"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Add Home Work"/>
                                 <connections>
                                     <action selector="addHomeWork:" destination="vDA-xO-ZbZ" eventType="touchUpInside" id="Adg-fW-ev0"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-1" translatesAutoresizingMaskIntoConstraints="NO" id="XJa-Ly-DNs">
+                                <rect key="frame" x="87" y="357" width="240" height="276"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.84951382875442505" green="0.96666485071182251" blue="0.29515156149864197" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="7rs-ao-bhs" firstAttribute="trailing" secondItem="e69-0C-dNx" secondAttribute="trailing" constant="20" id="ZyR-OI-ULT"/>
                             <constraint firstItem="8bW-to-JRF" firstAttribute="centerX" secondItem="uH6-aK-a6i" secondAttribute="centerX" id="aeJ-qW-hTf"/>
@@ -133,7 +138,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nSl-6B-kfY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1757" y="84"/>
+            <point key="canvasLocation" x="2380" y="81"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Unknown-1" width="225" height="225"/>
+    </resources>
 </document>

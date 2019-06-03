@@ -20,19 +20,21 @@
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Uf-tl-sKy" userLabel="E mail">
                                 <rect key="frame" x="20" y="134" width="374" height="30"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="email"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AZ5-Kb-DRr" userLabel="Password">
                                 <rect key="frame" x="20" y="194" width="374" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEJ-9c-LQs">
                                 <rect key="frame" x="95" y="264" width="224" height="40"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="VVI-RX-jgF"/>
                                 </constraints>
@@ -42,26 +44,22 @@
                                     <action selector="signIncustom:" destination="vv8-kM-bhg" eventType="touchUpInside" id="Scn-8g-G8G"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VEA-nH-boQ" customClass="GIDSignInButton">
-                                <rect key="frame" x="40" y="364" width="334" height="66"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="66" id="iwC-Pp-mkQ"/>
-                                </constraints>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7wa-DI-Lc9">
-                                <rect key="frame" x="20" y="554" width="149" height="17"/>
+                                <rect key="frame" x="119" y="547" width="177" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Forget Password ?"/>
                                 <connections>
-                                    <segue destination="vqG-Bp-b7g" kind="show" id="Rwe-3v-Mmw"/>
+                                    <segue destination="vqG-Bp-b7g" kind="show" identifier="gotToForget" id="Rwe-3v-Mmw"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-6" translatesAutoresizingMaskIntoConstraints="NO" id="qW1-KU-hcy">
+                                <rect key="frame" x="167" y="477" width="81" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.79223857389999996" green="0.86264323259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="VEA-nH-boQ" firstAttribute="centerX" secondItem="98a-RY-qPu" secondAttribute="centerX" id="4wF-Xx-g1s"/>
                             <constraint firstItem="AZ5-Kb-DRr" firstAttribute="height" secondItem="9Uf-tl-sKy" secondAttribute="height" id="93z-fp-fJb"/>
                             <constraint firstItem="IEJ-9c-LQs" firstAttribute="top" secondItem="AZ5-Kb-DRr" secondAttribute="bottom" constant="40" id="Baz-qF-Fdr"/>
                             <constraint firstItem="AE0-G7-rnj" firstAttribute="trailing" secondItem="9Uf-tl-sKy" secondAttribute="trailing" constant="20" id="Czb-D3-KPI"/>
@@ -73,9 +71,6 @@
                             <constraint firstItem="IEJ-9c-LQs" firstAttribute="centerX" secondItem="98a-RY-qPu" secondAttribute="centerX" id="Xig-ob-hoV"/>
                             <constraint firstItem="9Uf-tl-sKy" firstAttribute="centerX" secondItem="98a-RY-qPu" secondAttribute="centerX" id="bTJ-Gt-evZ"/>
                             <constraint firstItem="AZ5-Kb-DRr" firstAttribute="centerX" secondItem="98a-RY-qPu" secondAttribute="centerX" id="cQ8-Rv-0NV"/>
-                            <constraint firstItem="VEA-nH-boQ" firstAttribute="top" secondItem="IEJ-9c-LQs" secondAttribute="bottom" constant="60" id="cst-IK-0z2"/>
-                            <constraint firstItem="VEA-nH-boQ" firstAttribute="leading" secondItem="AE0-G7-rnj" secondAttribute="leading" constant="40" id="j6E-TJ-ATx"/>
-                            <constraint firstItem="AE0-G7-rnj" firstAttribute="trailing" secondItem="VEA-nH-boQ" secondAttribute="trailing" constant="40" id="v9M-Av-hyB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AE0-G7-rnj"/>
                     </view>
@@ -89,7 +84,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zIs-Iq-zXn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="530" y="128"/>
+            <point key="canvasLocation" x="135" y="112"/>
         </scene>
         <!--Home-->
         <scene sceneID="zyN-5j-fnp">
@@ -113,12 +108,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7b-46-zIG">
-                                <rect key="frame" x="20" y="86" width="50" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Close"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmd-iI-t4b">
                                 <rect key="frame" x="147" y="254" width="120" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -128,11 +117,20 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7b-46-zIG">
+                                <rect key="frame" x="20" y="44" width="96" height="62"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Close"/>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.79223857389999996" green="0.86264323259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="cqh-ex-MP4" firstAttribute="leading" secondItem="WVg-KA-SnS" secondAttribute="leading" constant="20" id="2LB-r0-3kD"/>
+                            <constraint firstItem="WVg-KA-SnS" firstAttribute="trailing" secondItem="F7b-46-zIG" secondAttribute="trailing" constant="298" id="7Hr-U8-qPP"/>
+                            <constraint firstItem="F7b-46-zIG" firstAttribute="leading" secondItem="cqh-ex-MP4" secondAttribute="leading" id="C7x-Qg-b1D"/>
+                            <constraint firstItem="cqh-ex-MP4" firstAttribute="top" secondItem="F7b-46-zIG" secondAttribute="bottom" constant="62" id="Cwo-UU-Bf9"/>
                             <constraint firstItem="cqh-ex-MP4" firstAttribute="centerX" secondItem="2Xs-ED-NZI" secondAttribute="centerX" id="H9I-Wb-Acm"/>
+                            <constraint firstItem="F7b-46-zIG" firstAttribute="top" secondItem="WVg-KA-SnS" secondAttribute="top" id="OP5-vs-6Pz"/>
                             <constraint firstItem="cqh-ex-MP4" firstAttribute="top" secondItem="WVg-KA-SnS" secondAttribute="top" constant="124" id="iQy-FT-oY0"/>
                             <constraint firstItem="WVg-KA-SnS" firstAttribute="trailing" secondItem="cqh-ex-MP4" secondAttribute="trailing" constant="20" id="zbt-yB-HLi"/>
                         </constraints>
@@ -141,7 +139,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DAK-L1-sVW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1493" y="499"/>
+            <point key="canvasLocation" x="1441" y="410"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="images-6" width="225" height="225"/>
+    </resources>
 </document>

@@ -12,6 +12,10 @@ import Firebase
 
 class ForgotPassword: UIViewController {
     
+    @IBAction func close(_ sender: Any) {
+dismiss(animated: true, completion: nil)
+    }
+    
     @IBOutlet weak var emailTxtF: UITextField!
     
     override func viewDidLoad() {
@@ -19,9 +23,7 @@ class ForgotPassword: UIViewController {
         
     }
     
-    @IBAction func dismiss(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
+    
 
     @IBAction func getPassword(_ sender: Any) {
 
